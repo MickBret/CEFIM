@@ -1,0 +1,34 @@
+@import url(chrome://global/skin/);
+
+radio[pane="general"] {
+    list-style-image: url(../images/general.png);
+}
+
+radio[pane="appearance"] {
+    list-style-image: url(../images/appearance.png);
+}
+
+textbox[type="number"], #thumbHeight {
+    width: 50px;
+}
+
+#restartIsNeeded {
+    visibility: hidden;
+}
+
+#font-family {
+    min-height: 21px;
+}
+
+.browse {
+    min-width: 25px;
+    margin: 0px;
+}
+
+.color {
+    width: 70px;
+}
+
+colorpicker {
+    width: 26px;
+}

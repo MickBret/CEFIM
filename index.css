@@ -1,0 +1,146 @@
+body {
+    background-image: url("Image/Fond.jpg");
+    margin: 0px;
+    padding: 4px;
+    font-family: Tahoma;
+    font-size: 11px;
+    text-align: center;
+}
+
+section {
+    font: inherit;
+    border-collapse: collapse;
+    padding: 0px;
+}
+
+.grille {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+figure {
+    display: block;
+    height: 225px;
+    width: 300px;
+    white-space: pre-wrap;
+    /* css-3 */
+    white-space: -moz-pre-wrap;
+    /* Mozilla, since 1999 */
+    white-space: -pre-wrap;
+    /* Opera 4-6 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    word-wrap: break-word;
+    /* Internet Explorer 5.5+ */
+    position: relative;
+    margin: 4px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+a img {
+    vertical-align: top;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+footer a img {
+    position: relative;
+    height: auto;
+    width: auto;
+}
+
+figcaption {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 1.6em;
+    background: #eee;
+    border-top: 1px solid lightgray;
+}
+
+figure:hover figcaption {
+    visibility: hidden;
+    border: 1px solid darkgray;
+}
+
+h1, h2
+{
+    text-align: center;
+    margin: 0em;
+    position: relative;
+}
+
+.folder
+{
+    background-image: url("Image/folder.png");
+        background-position: center 0px;
+        background-size: 100%;
+}
+
+h2 img
+{
+    vertical-align: top;
+    position: absolute;
+    top: 0px;
+}
+h1
+{
+    background: rgba(200, 0, 0, .8);
+}
+
+h2 {
+    background: rgba(0, 150, 150, .8);
+}
+
+@media all and (max-width: 1600px) {
+    figure {
+        display: block;
+        height: 180px;
+        width: 240px;
+    }
+
+    a img {
+        height: 100%;
+        width: 100%;
+    }
+    .folder {
+        background-position: center 0px;
+        background-size: 100%;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    figure {
+        display: block;
+        height: 112px;
+        width: 150px;
+    }
+
+    a img {
+        height: 100%;
+        width: 100%;
+    }
+    .folder {
+        background-position: center 0px;
+        background-size: 100%;
+    }
+}
+
+p {
+    text-align: justify;
+}

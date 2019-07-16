@@ -1,0 +1,82 @@
+body
+{
+	background-image: url("Image/Fond.jpg");
+	font-family: "Arial MT";
+}
+@font-face {
+    font-family: "Arial MT";
+    src: url("Font/arial-boldmt-opentype.otf") format("opentype");
+}
+h1
+{
+	text-shadow: 1.5px 1.5px #083763;
+    padding: 10px 0;
+}
+h1, h1+p
+{
+	text-align: center;
+	background-color: rgba(255,255,255,0.6);
+	width: 350px;
+	margin: auto;
+}
+img
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+h2
+{
+	color: #083763;
+	border-top: 3px double #41719C ;
+	border-left: 3px double #41719C ;
+	border-bottom: 3px double #41719C ;
+    background: linear-gradient(to right, #9dc3e6 , #FFFFFF);
+    padding: 10px;
+    width: 40%;
+}
+ul, table
+{
+	color: #1F4E79;
+	background-color: rgba(255,255,255,0.6);
+}
+ul
+{
+list-style-type: '- ';
+}
+#cat
+{
+	display: flex;
+}
+.col
+{
+	width: 30%;
+}
+.col h2
+{
+	width: 80%;
+}
+#lis
+{
+	width: 100px;
+	background-image: url("image/liseré.jpg");
+}
+@media all and (max-width: 1024px)
+{
+	#lis
+	{
+		display: none;
+	}
+	#cat
+	{
+		display: block;
+	}
+	.col
+	{
+		width: 100%;
+	}
+	.col h2
+	{
+		width: 40%;
+	}
+}
